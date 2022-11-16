@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     }
     func setupRatingView() {
         starRateView.delegate = self
-        starRateView.ratingValue = -1
+        starRateView.ratingValue = 4
     }
 
     override func didReceiveMemoryWarning() {
